@@ -3,12 +3,92 @@
 <head>
     <title>{{ page.title }}</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <link href='style.css' type='text/css' rel='stylesheet' />
+    <link href='/css/style.css' type='text/css' rel='stylesheet' />
 </head>
 <body>
 
 <div class="content">
-    {{ page.content }}
+    <div class="sidebar">
+        <a href="/" class="logo">Verset</a>
+
+        <div class="index">
+            <ul>
+                <li><a title="Geneza">Geneza</a></li>
+                <li><a title="Exodul">Exodul</a></li>
+                <li><a title="Leviticul">Leviticul</a></li>
+                <li><a title="Numeri">Numeri</a></li>
+                <li><a title="Deuteronomul">Deuteronomul</a></li>
+                <li><a title="Iosua">Iosua</a></li>
+                <li><a title="Judecatori">Judecători</a></li>
+                <li><a title="Rut">Rut</a></li>
+                <li><a title="1Samuel">1 Samuel</a></li>
+                <li><a title="2Samuel">2 Samuel</a></li>
+                <li><a title="1Imparati">1 Împărati</a></li>
+                <li><a title="2Imparati">2 Împărati</a></li>
+                <li {%if page.slug == "cronici-1"%}class="selected"{%endif%}>
+                    <a title="1Cronici" href="cronici-1.html">1 Cronici</a>
+                </li>
+                <li {%if page.slug == "cronici-2"%}class="selected"{%endif%}>
+                    <a title="2Cronici" href="cronici-2.html">2 Cronici</a>
+                </li>
+                <li><a title="Ezra">Ezra</a></li>
+                <li><a title="Neemia">Neemia</a></li>
+                <li><a title="Estera">Estera</a></li>
+                <li><a title="Iov">Iov</a></li>
+                <li><a title="Psalmi">Psalmi</a></li>
+                <li><a title="Proverbe">Proverbe</a></li>
+                <li><a title="Eclesiastul">Eclesiastul</a></li>
+                <li><a title="Cantarea">Cântarea Cântărilor</a></li>
+                <li><a title="Isaia">Isaia</a></li>
+                <li><a title="Ieremia">Ieremia</a></li>
+                <li><a title="Plangerile">Plângerile lui Ieremia</a></li>
+                <li><a title="Ezechiel">Ezechiel</a></li>
+                <li><a title="Daniel">Daniel</a></li>
+                <li><a title="Osea">Osea</a></li>
+                <li><a title="Ioel">Ioel</a></li>
+                <li><a title="Amos">Amos</a></li>
+                <li><a title="Obadia">Obadia</a></li>
+                <li><a title="Iona">Iona</a></li>
+                <li><a title="Mica">Mica</a></li>
+                <li><a title="Naum">Naum</a></li>
+                <li><a title="Habacuc">Habacuc</a></li>
+                <li><a title="Tefania">Ţefania</a></li>
+                <li><a title="Hagai">Hagai</a></li>
+                <li><a title="Zaharia">Zaharia</a></li>
+                <li><a title="Maleahi">Maleahi</a></li>
+                <li><a title="Matei">Matei</a></li>
+                <li><a title="Marcu">Marcu</a></li>
+                <li><a title="Luca">Luca</a></li>
+                <li><a title="Ioan">Ioan</a></li>
+                <li><a title="Fapte">Faptele Apostolilor</a></li>
+                <li><a title="Romani">Romani</a></li>
+                <li><a title="1Corinteni" href="corinteni-1.html">1 Corinteni</a></li>
+                <li><a title="2Corinteni" href="corinteni-2.html">2 Corinteni</a></li>
+                <li><a title="Galateni">Galateni</a></li>
+                <li><a title="Efeseni">Efeseni</a></li>
+                <li><a title="Filipeni">Filipeni</a></li>
+                <li><a title="Coloseni">Coloseni</a></li>
+                <li><a title="1Tesaloniceni">1 Tesaloniceni</a></li>
+                <li><a title="2Tesaloniceni">2 Tesaloniceni</a></li>
+                <li><a title="1Timotei">1 Timotei</a></li>
+                <li><a title="2Timotei">2 Timotei</a></li>
+                <li><a title="Tit">Tit</a></li>
+                <li><a title="Filimon">Filimon</a></li>
+                <li><a title="Evrei">Evrei</a></li>
+                <li><a title="Iacov">Iacov</a></li>
+                <li><a title="1Petru">1 Petru</a></li>
+                <li><a title="2Petru">2 Petru</a></li>
+                <li><a title="1Ioan">1 Ioan</a></li>
+                <li><a title="2Ioan">2 Ioan</a></li>
+                <li><a title="3Ioan">3 Ioan</a></li>
+                <li><a title="Iuda">Iuda</a></li>
+                <li><a title="Apocalipsa">Apocalipsa</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        {{ page.content }}
+    </div>
 </div>
 
 </body>

@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);
+
+* { margin: 0; padding: 0; }
+
+body {
+    background: #bbb url(grid.png);
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.content {
+    background-color: #fff;
+    width: 760px;
+    margin: 20px auto;
+    padding: 0;
+    box-shadow: 0 0 20px #888;
+    }
+    .content:after {
+        content: "";
+        display: block;
+        clear: both;
+        }
+
+.sidebar {
+    background-color: #f5f5f5;
+    width: 180px;
+    padding: 20px;
+    float: left;
+    }
+.index {
+    border-left: #ddd 5px solid;
+    padding-left: 15px;
+    }
+    .index ul {
+        list-style: none;
+        }
+        .index ul li.selected a {
+            color: #bbb
+            }
+        .index ul li a {
+            color: #08c;
+            }
+
+
+.main {
+    width: 500px;
+    float: right;
+    padding: 20px;
+    }
+
+h1 {
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    }
+h2 {
+    margin: 10px 0;
+    }
+h3 {
+    margin: 10px 0;
+    }
+
+.xrf {
+    color: #bbb;
+    font-size: 11px;
+    text-indent: 20px;
+    }
+.star {
+    color: #e42;
+    }
+.nrver {
+    color: #bbb;
+    float: left;
+    margin-right: 10px;
+    }
+.txtver {
+    text-align: justify;
+    display: block;
+    }
