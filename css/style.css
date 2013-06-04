@@ -28,20 +28,25 @@ body {
     padding: 20px;
     float: left;
     }
-.index {
+div.index {
     border-left: #ddd 5px solid;
     padding-left: 15px;
     }
-    .index ul {
+    div.index ul {
         list-style: none;
         }
-        .index ul li.selected a {
+        div.index ul li.selected a {
             color: #bbb
             }
-        .index ul li a {
+        div.index ul li a {
             color: #08c;
             }
 
+span.index {
+    vertical-align: super;
+    line-height: 10px;
+    font-size: 10px;
+    }
 
 .main {
     width: 500px;
@@ -60,6 +65,7 @@ h3 {
     margin: 10px 0;
     }
 
+.ftn,
 .xrf {
     color: #bbb;
     font-size: 11px;
