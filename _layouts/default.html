@@ -22,76 +22,204 @@
 
         <div class="index">
             <ul>
-                <li><a title="Geneza">Geneza</a></li>
-                <li><a title="Exodul">Exodul</a></li>
-                <li><a title="Leviticul">Leviticul</a></li>
-                <li><a title="Numeri">Numeri</a></li>
-                <li><a title="Deuteronomul">Deuteronomul</a></li>
-                <li><a title="Iosua">Iosua</a></li>
-                <li><a title="Judecatori">Judecători</a></li>
-                <li><a title="Rut">Rut</a></li>
-                <li><a title="1Samuel">1 Samuel</a></li>
-                <li><a title="2Samuel">2 Samuel</a></li>
-                <li><a title="1Imparati">1 Împărati</a></li>
-                <li><a title="2Imparati">2 Împărati</a></li>
+                <li {%if page.slug == "geneza"%}class="selected"{%endif%}>
+                    <a title="Geneza" href="geneza.html">Geneza</a>
+                </li>
+                <li>
+                    <a title="Exodul" href="exodul.html">Exodul</a>
+                </li>
+                <li>
+                    <a title="Leviticul" href="leviticul.html">Leviticul</a>
+                </li>
+                <li>
+                    <a title="Numeri" href="numeri.html">Numeri</a>
+                </li>
+                <li>
+                    <a title="Deuteronomul" href="deuteronomul.html">Deuteronomul</a>
+                </li>
+                <li>
+                    <a title="Iosua" href="iosua.html">Iosua</a>
+                </li>
+                <li>
+                    <a title="Judecatori" href="judecatori.html">Judecători</a>
+                </li>
+                <li>
+                    <a title="Rut" href="rut.html">Rut</a>
+                </li>
+                <li>
+                    <a title="1Samuel" href="samuel-1.html">1 Samuel</a>
+                </li>
+                <li>
+                    <a title="2Samuel" href="samuel-2.html">2 Samuel</a>
+                </li>
+                <li>
+                    <a title="1Imparati" href="imparati-1.html">1 Împărați</a>
+                </li>
+                <li>
+                    <a title="2Imparati" href="imparati-2.html">2 Împărați</a>
+                </li>
                 <li {%if page.slug == "cronici-1"%}class="selected"{%endif%}>
                     <a title="1Cronici" href="cronici-1.html">1 Cronici</a>
                 </li>
                 <li {%if page.slug == "cronici-2"%}class="selected"{%endif%}>
                     <a title="2Cronici" href="cronici-2.html">2 Cronici</a>
                 </li>
-                <li><a title="Ezra">Ezra</a></li>
-                <li><a title="Neemia">Neemia</a></li>
-                <li><a title="Estera">Estera</a></li>
-                <li><a title="Iov">Iov</a></li>
-                <li><a title="Psalmi">Psalmi</a></li>
-                <li><a title="Proverbe">Proverbe</a></li>
-                <li><a title="Eclesiastul">Eclesiastul</a></li>
-                <li><a title="Cantarea">Cântarea Cântărilor</a></li>
-                <li><a title="Isaia">Isaia</a></li>
-                <li><a title="Ieremia">Ieremia</a></li>
-                <li><a title="Plangerile">Plângerile lui Ieremia</a></li>
-                <li><a title="Ezechiel">Ezechiel</a></li>
-                <li><a title="Daniel">Daniel</a></li>
-                <li><a title="Osea">Osea</a></li>
-                <li><a title="Ioel">Ioel</a></li>
-                <li><a title="Amos">Amos</a></li>
-                <li><a title="Obadia">Obadia</a></li>
-                <li><a title="Iona">Iona</a></li>
-                <li><a title="Mica">Mica</a></li>
-                <li><a title="Naum">Naum</a></li>
-                <li><a title="Habacuc">Habacuc</a></li>
-                <li><a title="Tefania">Ţefania</a></li>
-                <li><a title="Hagai">Hagai</a></li>
-                <li><a title="Zaharia">Zaharia</a></li>
-                <li><a title="Maleahi">Maleahi</a></li>
-                <li><a title="Matei">Matei</a></li>
-                <li><a title="Marcu">Marcu</a></li>
-                <li><a title="Luca">Luca</a></li>
-                <li><a title="Ioan">Ioan</a></li>
-                <li><a title="Fapte">Faptele Apostolilor</a></li>
-                <li><a title="Romani">Romani</a></li>
-                <li><a title="1Corinteni" href="corinteni-1.html">1 Corinteni</a></li>
-                <li><a title="2Corinteni" href="corinteni-2.html">2 Corinteni</a></li>
-                <li><a title="Galateni">Galateni</a></li>
-                <li><a title="Efeseni">Efeseni</a></li>
-                <li><a title="Filipeni">Filipeni</a></li>
-                <li><a title="Coloseni">Coloseni</a></li>
-                <li><a title="1Tesaloniceni">1 Tesaloniceni</a></li>
-                <li><a title="2Tesaloniceni">2 Tesaloniceni</a></li>
-                <li><a title="1Timotei">1 Timotei</a></li>
-                <li><a title="2Timotei">2 Timotei</a></li>
-                <li><a title="Tit">Tit</a></li>
-                <li><a title="Filimon">Filimon</a></li>
-                <li><a title="Evrei">Evrei</a></li>
-                <li><a title="Iacov">Iacov</a></li>
-                <li><a title="1Petru">1 Petru</a></li>
-                <li><a title="2Petru">2 Petru</a></li>
-                <li><a title="1Ioan">1 Ioan</a></li>
-                <li><a title="2Ioan">2 Ioan</a></li>
-                <li><a title="3Ioan">3 Ioan</a></li>
-                <li><a title="Iuda">Iuda</a></li>
-                <li><a title="Apocalipsa">Apocalipsa</a></li>
+                <li>
+                    <a title="Ezra" href="ezra.html">Ezra</a>
+                </li>
+                <li>
+                    <a title="Neemia" href="neemia.html">Neemia</a>
+                </li>
+                <li>
+                    <a title="Estera" href="estera.html">Estera</a>
+                </li>
+                <li>
+                    <a title="Iov" href="iov.html">Iov</a>
+                </li>
+                <li>
+                    <a title="Psalmi" href="psalmi.html">Psalmi</a>
+                </li>
+                <li>
+                    <a title="Proverbe" href="proverbe.html">Proverbe</a>
+                </li>
+                <li>
+                    <a title="Eclesiastul" href="eclesiastul.html">Eclesiastul</a>
+                </li>
+                <li>
+                    <a title="Cantarea" href="cantarea.html">Cântarea Cântărilor</a>
+                </li>
+                <li>
+                    <a title="Isaia" href="isaia.html">Isaia</a>
+                </li>
+                <li>
+                    <a title="Ieremia" href="ieremia.html">Ieremia</a>
+                </li>
+                <li>
+                    <a title="Plangerile" href="plangerile.html">Plângerile lui Ieremia</a>
+                </li>
+                <li>
+                    <a title="Ezechiel" href="ezechiel.html">Ezechiel</a>
+                </li>
+                <li>
+                    <a title="Daniel" href="daniel.html">Daniel</a>
+                </li>
+                <li>
+                    <a title="Osea" href="osea.html">Osea</a>
+                </li>
+                <li>
+                    <a title="Ioel" href="ioel.html">Ioel</a>
+                </li>
+                <li>
+                    <a title="Amos" href="amos.html">Amos</a>
+                </li>
+                <li>
+                    <a title="Obadia" href="obadia.html">Obadia</a>
+                </li>
+                <li>
+                    <a title="Iona" href="iona.html">Iona</a>
+                </li>
+                <li>
+                    <a title="Mica" href="mica.html">Mica</a>
+                </li>
+                <li>
+                    <a title="Naum" href="naum.html">Naum</a>
+                </li>
+                <li>
+                    <a title="Habacuc" href="habacuc.html">Habacuc</a>
+                </li>
+                <li>
+                    <a title="Tefania" href="tefania.html">Ţefania</a>
+                </li>
+                <li>
+                    <a title="Hagai" href="hagai.html">Hagai</a>
+                </li>
+                <li>
+                    <a title="Zaharia" href="zaharia.html">Zaharia</a>
+                </li>
+                <li>
+                    <a title="Maleahi" href="maleahi.html">Maleahi</a>
+                </li>
+                <li>
+                    <a title="Matei" href="matei.html">Matei</a>
+                </li>
+                <li>
+                    <a title="Marcu" href="marcu.html">Marcu</a>
+                </li>
+                <li>
+                    <a title="Luca" href="luca.html">Luca</a>
+                </li>
+                <li>
+                    <a title="Ioan" href="ioan.html">Ioan</a>
+                </li>
+                <li>
+                    <a title="Fapte" href="fapte.html">Faptele Apostolilor</a>
+                </li>
+                <li>
+                    <a title="Romani" href="romani.html">Romani</a>
+                </li>
+                <li>
+                    <a title="1Corinteni" href="corinteni-1.html">1 Corinteni</a>
+                </li>
+                <li>
+                    <a title="2Corinteni" href="corinteni-2.html">2 Corinteni</a>
+                </li>
+                <li>
+                    <a title="Galateni" href="galateni.html">Galateni</a>
+                </li>
+                <li>
+                    <a title="Efeseni" href="efeseni.html">Efeseni</a>
+                </li>
+                <li>
+                    <a title="Filipeni" href="filipeni.html">Filipeni</a>
+                </li>
+                <li>
+                    <a title="Coloseni" href="coloseni.html">Coloseni</a>
+                </li>
+                <li>
+                    <a title="1Tesaloniceni" href="tesaloniceni-1.html">1 Tesaloniceni</a>
+                </li>
+                <li>
+                    <a title="2Tesaloniceni" href="tesaloniceni-2.html">2 Tesaloniceni</a>
+                </li>
+                <li>
+                    <a title="1Timotei" href="timotei-1.html">1 Timotei</a>
+                </li>
+                <li>
+                    <a title="2Timotei" href="timotei-2.html">2 Timotei</a>
+                </li>
+                <li>
+                    <a title="Tit" href="tit.html">Tit</a>
+                </li>
+                <li>
+                    <a title="Filimon" href="filimon.html">Filimon</a>
+                </li>
+                <li>
+                    <a title="Evrei" href="evrei.html">Evrei</a>
+                </li>
+                <li>
+                    <a title="Iacov" href="iacov.html">Iacov</a>
+                </li>
+                <li>
+                    <a title="1Petru" href="petru-1.html">1 Petru</a>
+                </li>
+                <li>
+                    <a title="2Petru" href="petru-2.html">2 Petru</a>
+                </li>
+                <li>
+                    <a title="1Ioan" href="ioan-1.html">1 Ioan</a>
+                </li>
+                <li>
+                    <a title="2Ioan" href="ioan-2.html">2 Ioan</a>
+                </li>
+                <li>
+                    <a title="3Ioan" href="ioan-3.html">3 Ioan</a>
+                </li>
+                <li>
+                    <a title="Iuda" href="iuda.html">Iuda</a>
+                </li>
+                <li>
+                    <a title="Apocalipsa" href="apocalipsa.html">Apocalipsa</a>
+                </li>
             </ul>
         </div>
     </div>
