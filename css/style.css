@@ -3,7 +3,7 @@
 * { margin: 0; padding: 0; }
 
 body {
-    background: #bbb url(grid.png);
+    background: #bbb url(grid.png) fixed;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-size: 13px;
     line-height: 20px;
