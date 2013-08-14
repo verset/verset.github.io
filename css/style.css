@@ -120,7 +120,7 @@ h3 {
 .xrf {
     color: #bbb;
     font-size: 13px;
-    text-indent: 20px;
+    text-indent: 30px;
     }
 .star {
     color: #f50;
@@ -128,7 +128,7 @@ h3 {
 .nrver {
     color: #bbb;
     float: left;
-    margin-right: 10px;
+    width: 30px;
     }
 .txtver {
     text-align: justify;
