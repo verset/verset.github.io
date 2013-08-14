@@ -1,20 +1,24 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext);
 
 * { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
 
 body {
     background: #bbb url(grid.png) fixed;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
 }
 
 .content {
-    background-color: #fff;
-    width: 760px;
-    margin: 20px auto;
+    background-color: #eee;
+    width: 911px;
+    margin: 0 auto;
     padding: 0;
     box-shadow: 0 0 20px #888;
+    position: relative;
     }
     .content:after {
         content: "";
@@ -22,24 +26,64 @@ body {
         clear: both;
         }
 
+.logo {
+    display: block;
+    background-color: #f50;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 3px 10px 5px 10px;
+    }
+
 .sidebar {
-    background-color: #f5f5f5;
-    width: 180px;
+    background-color: #eee;
+    width: 260px;
     padding: 20px;
     float: left;
     }
-div.index {
-    border-left: #ddd 5px solid;
-    padding-left: 15px;
+
+ul.front {
+    list-style: none;
+    margin-top: 20px;
     }
+    ul.front li {
+        margin: 20px 0;
+        }
+    ul.front i {
+        color: #888;
+        font-size: 13px;
+        }
+    ul.front a {
+        color: #00b290;
+        }
+
+div.index {
+    margin-top: 36px;
+    }
+    div.index strong {
+        display: block;
+        font-weight: 300;
+        color: #bbb;
+        padding: 5px 0;
+        }
     div.index ul {
         list-style: none;
+        width: 130px;
+        float: left;
         }
+        div.index ul li {
+            box-shadow: 0 -1px 0 0 #ddd;
+            }
         div.index ul li.selected a {
-            color: #bbb
+            color: #00b290;
             }
         div.index ul li a {
-            color: #08c;
+            color: #555;
+            }
+        div.index ul li a:hover {
+            color: #00b290;
             }
 
 span.index {
@@ -49,30 +93,37 @@ span.index {
     }
 
 .main {
-    width: 500px;
+    background-color: #fff;
+    width: 540px;
+    min-height: 1111px;
     float: right;
-    padding: 20px;
+    padding: 30px;
+    border-left: #ddd 1px solid;
     }
 
 h1 {
-    font-weight: normal;
+    font-weight: 300;
+    line-height: 32px;
     margin: 0 0 20px 0;
     }
 h2 {
+    font-weight: 300;
     margin: 10px 0;
     }
 h3 {
+    font-weight: normal;
+    color: #00b290;
     margin: 10px 0;
     }
 
 .ftn,
 .xrf {
     color: #bbb;
-    font-size: 11px;
+    font-size: 13px;
     text-indent: 20px;
     }
 .star {
-    color: #e42;
+    color: #f50;
     }
 .nrver {
     color: #bbb;
