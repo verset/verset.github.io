@@ -116,6 +116,34 @@ h3 {
     margin: 10px 0;
     }
 
+ul.capitol {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 12px;
+    padding-bottom: 10px;
+    }
+    ul.capitol a {
+        background-color: #bbb;
+        display: block;
+        float: left;
+        color: #fff;
+        padding: 0 8px;
+        }
+        ul.capitol a:hover {
+            background-color: #ddd;
+            }
+    ul.capitol li {
+        display: block;
+        float: left;
+        margin: 1px;
+        color: #fff;
+        }
+        ul.capitol li.active a {
+            background-color: #f50;
+            }
+
 .ftn,
 .xrf {
     color: #bbb;
