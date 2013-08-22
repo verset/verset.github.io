@@ -123,7 +123,7 @@ ul.capitol {
     list-style: none;
     display: block;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 10px;
     }
     ul.capitol a {
@@ -131,9 +131,9 @@ ul.capitol {
         display: block;
         float: left;
         color: #fff;
-        width: 14px;
+        width: 18px;
         text-align: right;
-        padding: 0 10px;
+        padding: 0 8px;
         }
         ul.capitol a:hover {
             background-color: #ddd;
