@@ -21,7 +21,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: auto 260px 540px auto;
+    grid-template-columns: auto 280px 560px auto;
     }
     .container > div { min-height: 100vh; }
     .leftside { background-color: #f0f0f0; }
@@ -34,6 +34,10 @@ body {
         background-color: #fff;
         padding: 20px;
         }
+
+@media (max-width: 575px) {
+    .container { grid-template-columns: 0 25% 75% 0; }
+}
 
 .logo {
     display: block;
