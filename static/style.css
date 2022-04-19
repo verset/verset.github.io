@@ -25,7 +25,7 @@ body {
 
 .logo {
     display: block;
-    background-color: #f50;
+    background-color: #ff4000;
     color: #fff;
     font-weight: 300;
     position: absolute;
@@ -49,7 +49,7 @@ ul.front {
         margin: 20px 0;
         }
     ul.front i {
-        color: #888;
+        color: #808080;
         font-size: 13px;
         }
     ul.front a {
@@ -62,7 +62,7 @@ div.index {
     div.index strong {
         display: block;
         font-weight: 300;
-        color: #bbb;
+        color: #c0c0c0;
         padding: 5px 0;
         }
     div.index ul {
@@ -71,7 +71,7 @@ div.index {
         float: left;
         }
         div.index ul li {
-            border-bottom: #d0d0d0 1px solid;
+            border-bottom: #e0e0e0 1px solid;
             text-overflow: ellipsis;
             overflow: hidden;
             white-space: nowrap;
@@ -83,7 +83,7 @@ div.index {
             color: #00b290;
             }
         div.index ul li a {
-            color: #555;
+            color: #404040;
             }
         div.index ul li a:hover {
             color: #00b290;
@@ -128,7 +128,7 @@ ul.capitol {
     padding-bottom: 10px;
     }
     ul.capitol a {
-        background-color: #bbb;
+        background-color: #c0c0c0;
         display: block;
         float: left;
         color: #fff;
@@ -137,7 +137,7 @@ ul.capitol {
         padding: 0 8px;
         }
         ul.capitol a:hover {
-            background-color: #ddd;
+            background-color: #e0e0e0;
             }
     ul.capitol li {
         display: block;
@@ -146,20 +146,19 @@ ul.capitol {
         color: #fff;
         }
         ul.capitol li.active a {
-            background-color: #f50;
+            background-color: #ff4000;
             }
 
-.ftn,
-.xrf {
-    color: #bbb;
+.ftn, .xrf {
+    color: #c0c0c0;
     font-size: 13px;
     text-indent: 30px;
     }
 .star {
-    color: #f50;
+    color: #ff4000;
     }
 .nrver {
-    color: #bbb;
+    color: #c0c0c0;
     float: left;
     width: 30px;
     }
