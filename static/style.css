@@ -58,11 +58,11 @@ ul.front {
     ul.front a:hover { color: #00b290; }
 
 div.index {
-    margin-top: 35px;
+    margin-top: 20px;
     }
     div.index strong {
         display: block;
-        font-weight: 300;
+        font-weight: normal;
         color: #c0c0c0;
         padding: 5px 0;
         }
@@ -97,13 +97,11 @@ span.index {
     }
 
 h1 {
-    font-weight: 300;
     font-weight: normal;
     line-height: 32px;
     margin: 0 0 20px 0;
     }
 h2 {
-    font-weight: 300;
     font-weight: normal;
     margin: 10px 0;
     }
