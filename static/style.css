@@ -95,10 +95,12 @@ span.index {
 
 h1 {
     font-weight: normal;
+    line-height: 30px;
     margin-bottom: 20px;
     }
 h2 {
     font-weight: normal;
+    line-height: 25px;
     margin: 10px 0;
     }
 h3 {
