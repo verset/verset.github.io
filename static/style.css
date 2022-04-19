@@ -25,7 +25,7 @@ body {
     }
     .container > div { min-height: 100vh; }
     .leftside { background-color: #f0f0f0; }
-    .leftside { background-color: #fff; }
+    .rightside { background-color: #fff; }
     .sidebar {
         background-color: #f0f0f0;
         padding: 20px;
