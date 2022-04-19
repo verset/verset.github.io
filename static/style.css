@@ -12,7 +12,7 @@ a {
     }
 
 body {
-    background: #f0f0f0;
+    background: #e0e0e0;
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -24,13 +24,15 @@ body {
     grid-template-columns: auto 260px 540px auto;
     }
     .container > div { min-height: 100vh; }
+    .leftside { background-color: #f0f0f0; }
+    .leftside { background-color: #fff; }
     .sidebar {
         background-color: #f0f0f0;
-        padding: 25px;
+        padding: 20px;
         }
     .main {
         background-color: #fff;
-        padding: 30px;
+        padding: 20px;
         }
 
 .logo {
