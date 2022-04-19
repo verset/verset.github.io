@@ -109,6 +109,14 @@ h3 {
     margin: 10px 0;
     }
 
+.footer {
+    border-top: #e0e0e0 1px solid;
+    text-align: right;
+    margin-top: 10px;
+    padding-top: 10px;
+    }
+    a { color: #ff4000; }
+
 ul.capitol {
     list-style: none;
     display: block;
