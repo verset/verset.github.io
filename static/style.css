@@ -3,7 +3,7 @@
 
 * { margin: 0; padding: 0; }
 
-a { text-decoration: none; }
+a { text-decoration: none; transition: color 0.2s; }
 
 body {
     background: #c0c0c0 url(grid.png) fixed;
