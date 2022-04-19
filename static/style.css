@@ -135,19 +135,16 @@ ul.capitol {
         width: 18px;
         text-align: right;
         padding: 0 8px;
+        transition: background-color 0.2s;
         }
-        ul.capitol a:hover {
-            background-color: #e0e0e0;
-            }
+        ul.capitol a:hover { background-color: #e0e0e0; }
     ul.capitol li {
         display: block;
         float: left;
         margin: 1px;
         color: #fff;
         }
-        ul.capitol li.active a {
-            background-color: #ff4000;
-            }
+        ul.capitol li.active a { background-color: #ff4000; }
 
 .ftn, .xrf {
     color: #c0c0c0;
