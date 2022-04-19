@@ -71,7 +71,13 @@ div.index {
         float: left;
         }
         div.index ul li {
-            box-shadow: 0 -1px 0 0 #ddd;
+            border-bottom: #d0d0d0 1px solid;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            }
+        div.index ul li:last-child {
+            border-bottom: 0 none;
             }
         div.index ul li.selected a {
             color: #00b290;
