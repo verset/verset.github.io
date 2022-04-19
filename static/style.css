@@ -6,26 +6,22 @@
 a { text-decoration: none; }
 
 body {
-    background: #bbb url(grid.png) fixed;
+    background: #c0c0c0 url(grid.png) fixed;
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #222;
+    color: #000;
 }
 
 .content {
-    background-color: #eee;
+    background-color: #f0f0f0;
     width: 911px;
     margin: 0 auto;
     padding: 0;
-    box-shadow: 0 0 30px 0 #777;
+    box-shadow: 0 0 25px 0 #808080;
     position: relative;
+    overflow: hidden;
     }
-    .content:after {
-        content: "";
-        display: block;
-        clear: both;
-        }
 
 .logo {
     display: block;
@@ -99,7 +95,6 @@ span.index {
     min-height: 1011px;
     float: right;
     padding: 30px;
-    border-left: #ddd 1px solid;
     }
 
 h1 {
