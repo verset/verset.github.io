@@ -1,6 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,latin-ext);
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +10,7 @@ a {
 
 body {
     background: #e0e0e0;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-family: "Clear Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #000;
@@ -164,3 +161,17 @@ ul.capitol {
         padding-right: 10px;
     }
 }
+
+@font-face {
+    font-family: "Clear Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: url(/static/clearsans/regular.woff) format("woff");
+    }
+
+@font-face {
+    font-family: "Clear Sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url(/static/clearsans/bold.woff) format("woff");
+    }
