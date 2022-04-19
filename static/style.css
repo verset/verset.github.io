@@ -43,18 +43,16 @@ body {
 
 ul.front {
     list-style: none;
-    margin-top: 20px;
     }
     ul.front li {
-        margin: 20px 0;
+        margin: 10px 0;
         }
     ul.front i {
         color: #808080;
         font-size: 13px;
         }
-    ul.front a {
-        color: #00b290;
-        }
+    ul.front a { color: #ff4000; }
+    ul.front a:hover { color: #00b290; }
 
 div.index {
     margin-top: 35px;
