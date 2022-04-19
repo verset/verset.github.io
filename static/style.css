@@ -10,10 +10,10 @@ a {
 
 body {
     background: #e0e0e0;
-    font-family: "Clear Sans", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
     color: #000;
+    font-family: "Clear Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
     }
 
 .container {
@@ -95,8 +95,7 @@ span.index {
 
 h1 {
     font-weight: normal;
-    line-height: 32px;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
     }
 h2 {
     font-weight: normal;
