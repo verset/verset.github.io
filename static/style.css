@@ -161,4 +161,8 @@ ul.capitol {
 @media (max-width: 840px) {
     .container { grid-template-columns: 0 25% 75% 0; }
     div.index ul { width: 100%; }
+    .main, .sidebar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
