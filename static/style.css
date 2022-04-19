@@ -29,6 +29,7 @@ body {
     .sidebar {
         background-color: #f0f0f0;
         padding: 20px;
+        padding-top: 0;
         }
     .main {
         background-color: #fff;
@@ -36,11 +37,9 @@ body {
         }
 
 .logo {
-    display: block;
     background-color: #ff4000;
     color: #fff;
     font-weight: bold;
-    margin-top: -20px;
     padding: 5px 10px;
     text-transform: uppercase;
     }
