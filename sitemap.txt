@@ -1,3 +1,4 @@
+https://verset.github.io/
 https://verset.github.io/amos.html
 https://verset.github.io/apocalipsa.html
 https://verset.github.io/cantarea.html
@@ -26,7 +27,6 @@ https://verset.github.io/iacov.html
 https://verset.github.io/ieremia.html
 https://verset.github.io/imparati-1.html
 https://verset.github.io/imparati-2.html
-https://verset.github.io/index.html
 https://verset.github.io/ioan-1.html
 https://verset.github.io/ioan-2.html
 https://verset.github.io/ioan-3.html
